@@ -66,4 +66,10 @@
     .content h1{
         font-size:50px ;
     }
+    .step h2:after {
+        content: none;
+    }
+    .step h2:before {
+        content: none;
+    }
 }
