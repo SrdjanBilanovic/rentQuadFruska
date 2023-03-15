@@ -1,0 +1,64 @@
+.banner {
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+
+    background-image: url(../../assets/images/man-helmet-sitting-atv-quad-bike-mountains.jpg);
+}
+
+.content {
+    top: 30%;
+    left: 20%;
+    position: absolute;
+}
+
+.content h1 {
+    color:#050503;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.content a {
+    text-decoration: none;
+    background-color: #10100e;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.content a:hover {
+    font-size: 110%;
+    background-color:#10100e;
+    color: white;
+
+}
+
+.step h2 {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+}
+
+.step h2:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #000;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.step h2:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #000;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
