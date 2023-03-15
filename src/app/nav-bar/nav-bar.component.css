@@ -1,0 +1,13 @@
+.navbar
+{
+    background-color:rgb(12, 12, 12);
+}
+.nav-link{
+    color: #ffffff;
+}
+.navbar-brand{
+    color: #fff;
+}
+.nav-link:hover{
+    font-size: large;
+}
