@@ -1,28 +1,68 @@
-.footer
-{
-overflow: hidden;
-position: sticky;
-top: 100%;
-background-color: #070707;
-padding: 20px 10px;
+.footer {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color: #070707;
+    padding: 20px 10px;
+
 }
-a
-{
-display: block;
-color: #fff;
-text-decoration: none ;
-padding: 0px 5px;
-font-size: 14px;
+
+a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 5px;
+    font-size: 14px;
 }
-a:hover
-{
+
+a:hover {
     text-decoration: underline;
 }
-i
-{
+
+i {
     display: inline;
     color: white;
 }
-.social-media a{
+
+.social-media a {
     display: inline;
 }
+.prijateljiSajta{
+    display: inline;
+    text-align: center;
+    margin-right: auto;
+    
+}
+
+.prijateljiSajta h2{
+    color: red;
+    margin-left: -20%;
+}
+
+.prijateljiSajta img{
+    width: 100px;
+    height: 100px;
+}
+.prijateljiSajta .web{
+    display: block;
+    font-size: large;
+}
+.kontakt{
+   float: right; 
+}
+.kontakt p{
+    color: white;
+    font-size: large;
+}
+.col-lg-4 h2{
+    color: red;
+}
+.kontakt h2{
+    color: red;
+}
+.col-lg-4 a{
+font-size: large;
+}
+
