@@ -6,13 +6,9 @@ top: 100%;
 background-color: #070707;
 padding: 20px 10px;
 }
-h1
-{
-    color: #fff;
-    font-size: 20px;
-}
 a
 {
+display: block;
 color: #fff;
 text-decoration: none ;
 padding: 0px 5px;
@@ -20,9 +16,13 @@ font-size: 14px;
 }
 a:hover
 {
-    color: wheat;
+    text-decoration: underline;
 }
 i
 {
-    color: aliceblue;
+    display: inline;
+    color: white;
+}
+.social-media a{
+    display: inline;
 }

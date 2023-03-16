@@ -3,14 +3,14 @@
     background-color:rgb(12, 12, 12);
 }
 .nav-link{
-    color: #ffffff;
+    color: white;
 }
 .navbar-brand{
     color: #fff;
 }
 .nav-link:hover{
     font-size: large;
-    background-color: red;
+    text-decoration: underline;
 }
 .navbar-toggler{
     background-color: #fff;
