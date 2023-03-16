@@ -1,45 +1,40 @@
-<div class="body">
-<div class="container">
-    <div class="title">Rezervacija</div>
-    <form action="#">
-        <div class="user-details">
-            <div class="input-box">
-                <span class="details">Ime i prezime</span>
-                <input type="text" placeholder="Unesite vase ime i prezime" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Vas email</span>
-                <input type="text" placeholder="Unesite Vas email" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Broj telefona</span>
-                <input type="text" placeholder="Unesite broj telefona" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Datum dolaska</span>
-                <input type="date" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Vreme dolaska</span>
-                <input type="text" placeholder="Unesite vreme (npr: 13h)" required>
-            </div>
-            <div class="input-box">
-                <span class="details">broj osoba</span>
-                <input type="number" max="2" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Broj sati rentiranja</span>
-                <input type="number" max="12" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Vasa dodatna pitanja</span>
-                <input type="text">
-                <div class="button">
-                    <input type="submit" value="Zakazi voznju">
-                </div>
-            </div>
-        </div>
-
-    </form>
-</div>
-</div>
+<<div class="body">
+  <div class="container">
+      <div class="title">Rezervacija</div>
+      <form action="https://formspree.io/f/mgebzbpz" method="POST" id="my-form">
+          <div class="user-details">
+              <div class="input-box">
+                  <span class="details">Ime i prezime</span>
+                  <input type="text" id="ImeIPrezime" name="ImeIPrezime" placeholder="Unesite vase ime i prezime" required>
+              </div>
+              <div class="input-box">
+                  <span class="details">Vas email</span>
+                  <input type="text" id="email" name="email" placeholder="Unesite Vas email" required>
+              </div>
+              <div class="input-box">
+                  <span class="details">Broj telefona</span>
+                  <input type="text" id="brojTelefona" name="brojTelefona" placeholder="Unesite broj telefona" required>
+              </div>
+              <div class="input-box">
+                  <span class="details">Datum dolaska</span>
+                  <input type="date" id="datumDolaska" name="DatumDolaska" required>
+              </div>
+              <div class="input-box">
+                  <span class="details">Vreme dolaska</span>
+                  <input type="text" id="vremeDolaska" name="vremeDolaska" placeholder="Unesite vreme (npr: 13h)" required>
+              </div>
+              <div class="input-box">
+                  <span class="details">broj osoba</span>
+                  <input type="number" id="brojOsoba" name="brojOsoba" max="2" required>
+              </div>
+              <div class="input-box">
+                  <span class="details">Broj sati rentiranja</span>
+                  <input type="number" id="trajanjeRente" name="trajanje" max="12" required>
+              </div>
+              <div class="input-box">
+                  <span class="details">Vasa dodatna pitanja</span>
+                  <input type="text" id="poruka" name="poruka">
+  
+        <button type="submit">Submit</button>
+    </div>
+    <div id="status"></div>
