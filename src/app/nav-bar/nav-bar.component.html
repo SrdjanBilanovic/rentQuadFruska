@@ -6,10 +6,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link " routerLink="about" routerLinkActive="active-link">O nama</a>
-          <a class="nav-link " routerLink="kontakt" routerLinkActive="active-link">Kontakt</a>
-          <a class="nav-link " routerLink="reservation" routerLinkActive="active-link">Rezervacije</a>
-          <a class="nav-link " routerLink="uslovi" routerLinkActive="active-link">Uslovi za iznajmljivanje</a>
+          <a class="nav-link " [routerLink]="['Onama']" routerLinkActive="active-link">O nama</a>
+          <a class="nav-link " [routerLink]="['kontakt']" routerLinkActive="active-link">Kontakt</a>
+          <a class="nav-link " [routerLink]="['rezervacije']" routerLinkActive="active-link">Rezervacije</a>
+          <a class="nav-link " [routerLink]="['uslovi']" routerLinkActive="active-link">Uslovi za iznajmljivanje</a>
           <i class="fa fa-bars" ></i>
         </div>
       </div>

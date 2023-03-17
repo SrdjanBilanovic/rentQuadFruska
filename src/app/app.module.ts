@@ -7,6 +7,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReservationComponent } from './reservation/reservation.component';
+import { UsloviZaIznajmljivanjeComponent } from './uslovi-za-iznajmljivanje/uslovi-za-iznajmljivanje.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ReservationComponent } from './reservation/reservation.component';
     HomePageComponent,
     NavBarComponent,
     FooterComponent,
-    ReservationComponent
+    ReservationComponent,
+    UsloviZaIznajmljivanjeComponent,
+  
   ],
   imports: [
     BrowserModule,

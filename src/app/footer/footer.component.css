@@ -1,3 +1,7 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
 .footer {
     display: flex;
     justify-content: space-around;
@@ -37,8 +41,8 @@ i {
 }
 
 .prijateljiSajta h2{
-    color: red;
-    margin-left: -20%;
+    color: orangered;
+    margin-left: -8%;
 }
 
 .prijateljiSajta img{
