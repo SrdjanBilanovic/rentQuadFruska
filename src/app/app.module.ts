@@ -8,6 +8,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReservationComponent } from './reservation/reservation.component';
 import { UsloviZaIznajmljivanjeComponent } from './uslovi-za-iznajmljivanje/uslovi-za-iznajmljivanje.component';
+import { OnamaComponent } from './onama/onama.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { UsloviZaIznajmljivanjeComponent } from './uslovi-za-iznajmljivanje/uslo
     FooterComponent,
     ReservationComponent,
     UsloviZaIznajmljivanjeComponent,
+    OnamaComponent,
   
   ],
   imports: [

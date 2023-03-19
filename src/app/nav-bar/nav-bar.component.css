@@ -1,6 +1,5 @@
 *{
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar
@@ -37,5 +36,13 @@
 }
 .navbar-toggler{
     background-color: #fff;
+}
+.logo{
+    display: inline;
+    
+    width: 10%;
+    height: 10%;
+    margin-right: 20px;
+    margin-top: 15px;
 }
 

@@ -2,15 +2,48 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-h1{
-  margin: 10%;
+.paragraf h1{
+  font-size: 350%;
+  font-weight: bolder;
+  padding: 5%;
+}
+.paragraf p{
+  line-height: 200%;
+}
+div.gallery img {
+  padding-top: 10%;
+  width: 100%;
+  height: auto;
   text-align: center;
 }
-p{
+.responsive {
+  padding: 3% 1%;
+  float: right;
+  width: 33%;
+}
+.paragraf{
   text-align: center;
-  margin: 10%;
-  font-size: x-large;
+  font-size: large;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
