@@ -1,16 +1,17 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
-    <img class="logo" src="../../assets/images/logoIzmena.jpg" alt="logo RQ" >
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">RentAQuadVrdnik 
+      <!--logo-->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse" id="mainNav">
         <div class="navbar-nav ms-auto">
           <a class="nav-link " [routerLink]="['Onama']" routerLinkActive="active-link">O nama</a>
           <a class="nav-link " [routerLink]="['kontakt']" routerLinkActive="active-link">Kontakt</a>
           <a class="nav-link " [routerLink]="['rezervacije']" routerLinkActive="active-link">Rezervacije</a>
           <a class="nav-link " [routerLink]="['uslovi']" routerLinkActive="active-link">Uslovi za iznajmljivanje</a>
-          <i class="fa fa-bars" ></i>
         </div>
       </div>
     </div>

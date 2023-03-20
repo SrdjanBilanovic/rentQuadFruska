@@ -34,11 +34,26 @@ div.gallery img {
     width: 49.99999%;
     margin: 6px 0;
   }
+  .paragraf h1 span{
+    display: inline-block;
+  }
+
+  .paragraf h1{
+    font-size: large;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .responsive {
     width: 100%;
+  }
+
+  .paragraf h1 span{
+    display: inline-block;
+  }
+
+  .paragraf h1{
+    font-size: medium;
   }
 }
 

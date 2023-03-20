@@ -9,7 +9,7 @@
     background-position: center center;
     background-size: cover;
 
-    background-image: url(../../assets/images/man-helmet-sitting-atv-quad-bike-mountains.jpg);
+    background-image: url(../../assets/images/imgPageReserva/slikaNaslovnaStranica.webp);
 }
 
 .content {
@@ -22,6 +22,7 @@
     color:#050503;
     font-size: 80px;
     font-weight: bold;
+    padding-top: 14%;
 
 }
 
@@ -78,4 +79,9 @@
     .step h2:before {
         content: none;
     }
+    .content h1 {
+       padding-top: 14%;
+    
+    }
+
 }
