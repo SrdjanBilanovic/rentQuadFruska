@@ -1,8 +1,7 @@
-
-    *{
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Poppins', sans-serif;
-    }
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
 
 .banner {
     height: 100vh;
@@ -80,7 +79,7 @@
         content: none;
     }
     .content h1 {
-       padding-top: 14%;
+       padding-top: 50%;
     
     }
 

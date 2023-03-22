@@ -13,11 +13,11 @@ const routes: Routes = [
   {path:"rezervacije",component:ReservationComponent},
   {path:"uslovi",component:UsloviZaIznajmljivanjeComponent},
   {path:"Onama",component:OnamaComponent},
-  {path:"",redirectTo:"home",pathMatch:'full'},
+  {path:"",component:HomePageComponent,pathMatch:'full'},
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{ scrollPositionRestoration: 'enabled'})],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

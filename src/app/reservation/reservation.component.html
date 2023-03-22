@@ -13,7 +13,7 @@
               </div>
               <div class="input-box">
                   <span class="details">Broj telefona</span>
-                  <input type="text" id="brojTelefona" name="brojTelefona" placeholder="Unesite broj telefona" required>
+                  <input type="text" id="brojTelefona" name="brojTelefona" placeholder="Unesite broj telefona" maxlength="15" required>
               </div>
               <div class="input-box">
                   <span class="details">Datum dolaska</span>
@@ -21,22 +21,22 @@
               </div>
               <div class="input-box">
                   <span class="details">Vreme dolaska</span>
-                  <input type="text" id="vremeDolaska" name="vremeDolaska" placeholder="Unesite vreme dolaska (npr: 13h)" required>
+                  <input type="text" id="vremeDolaska" name="vremeDolaska" placeholder="Unesite vreme dolaska (npr: 13h)" minlength="1" max="3" required>
               </div>
               <div class="input-box">
                   <span class="details">Broj osoba</span>
-                  <input type="number" id="brojOsoba" name="brojOsoba" max="2" placeholder="Maksimalno 2 osobe" required>
+                  <input type="number" id="brojOsoba" name="brojOsoba" min="1" max="2" placeholder="Maksimalno 2 osobe" required>
               </div>
               <div class="input-box">
                   <span class="details">Broj sati iznajmljivanja</span>
-                  <input type="number" id="trajanjeRente" name="trajanje" max="12" placeholder="Maksimalno 12h" required>
+                  <input type="number" id="trajanjeRente" name="trajanje" min="1" max="12" placeholder="Maksimalno 12h" required>
               </div>
               <div class="input-box">
                   <span class="details">Vaša dodatna pitanja</span>
-                  <input type="text" id="poruka" name="poruka">
+                  <input type="text" id="poruka" maxlength="150" name="poruka">
               </div>
             <div class="button">
-        <button type="submit" class="btn">Rezerviši vožnju</button>
+        <button type="submit" class="btn" >Rezerviši vožnju</button>
     </div>
   
     <div id="status"></div>
