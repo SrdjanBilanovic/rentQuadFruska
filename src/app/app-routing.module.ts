@@ -8,7 +8,7 @@ import { OnamaComponent } from './onama/onama.component';
 
 
 const routes: Routes = [
-  {path:"home",component:HomePageComponent},
+ {path:"home",component:HomePageComponent},
   {path:"kontakt",component:FooterComponent},
   {path:"rezervacije",component:ReservationComponent},
   {path:"uslovi",component:UsloviZaIznajmljivanjeComponent},

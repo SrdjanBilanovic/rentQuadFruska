@@ -8,10 +8,10 @@
       </button>
       <div class="collapse navbar-collapse" id="mainNav">
         <div class="navbar-nav ms-auto">
-          <a class="nav-link " [routerLink]="['home']" routerLinkActive="active-link">Pocetna stranica</a>
-          <a class="nav-link " [routerLink]="['Onama']" routerLinkActive="active-link">O nama</a>
-          <a class="nav-link " [routerLink]="['rezervacije']" routerLinkActive="active-link">Rezervacije</a>
-          <a class="nav-link " [routerLink]="['uslovi']" routerLinkActive="active-link">Uslovi za iznajmljivanje</a>
+          <a (click)="goDown2()"class="nav-link " [routerLink]="['home']" routerLinkActive="active-link">Pocetna stranica</a>
+          <a (click)="goDown3()"class="nav-link " [routerLink]="['Onama']" routerLinkActive="active-link">O nama</a>
+          <a (click)="goDown1()"class="nav-link " [routerLink]="['rezervacije']" routerLinkActive="active-link">Rezervacije</a>
+          <a (click)="goDown4()"class="nav-link " [routerLink]="['uslovi']" routerLinkActive="active-link">Uslovi za iznajmljivanje</a>
         </div>
       </div>
     </div>
