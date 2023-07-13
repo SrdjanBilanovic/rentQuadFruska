@@ -2,26 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
+
 }
+.container .phone-link{
+  color: black;
+  text-decoration: none;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.title .fas{
+  margin-top: 2%;
+  font-size: medium;
+}
+
 .body{
   display: flex;
   height: 100vh;
   justify-content:center;
   align-items: center;
-  background-image: url(../../assets/images/imgPageReserva/RezervacijaSlika.webp);
+  background-image: url(../../assets/images/imgHomeReserva/11.webp);
   background-repeat: no-repeat;
   background-attachment: local;  
-  background-size: 100% 100%;
+  background-size:cover;
 }
 .container{
   max-width: 700px;
-  width: 100%;
+  width: 90vw;
   background: rgb(253, 250, 250);
   padding: 25px 30px;
   border-radius: 6px;
-  opacity: 90%;
+  opacity: 85%;
 }
 .container .title{
   font-size: 30px;
@@ -111,13 +124,21 @@ form .user-details .input-box{
       pointer-events: none;
     }
   }
-@media (max-width:584px) {
+@media (max-width:990px) {
+ .body{
+  overflow-x: hidden;
+
+ }
+  
 .container{
   max-width: 100%;
+  opacity: 80%;
+  background-blend-mode: hard-light;
 }
 form .user-details .input-box{
   margin-bottom: 15px;
   width: 100%;
+  opacity: 90%;
 }
 .container form .user-details{
   max-height: 400px;
@@ -127,5 +148,11 @@ form .user-details .input-box{
   width: 0;
 
 }
+.title .fas{
+  margin-top: 6%;
+  font-size: medium;
 }
+}
+
+  
   

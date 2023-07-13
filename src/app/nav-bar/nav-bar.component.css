@@ -5,12 +5,15 @@
 
 .navbar
 {
-    background-color:rgb(12, 12, 12);
+    background:#fff;
 }
 .nav-link{
+    font-size: medium;
     display: inline-block;
     position: relative;
-    color: white;
+    background: -webkit-linear-gradient(90deg, rgba(149,100,42,1) 0%, rgba(244,234,152,1) 52%, rgba(149,100,42,1) 100%);
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
 }
 .navbar-brand{
     color: #fff;
@@ -38,13 +41,5 @@
 }
 .navbar-toggler{
     background-color: #fff;
-}
-.logo{
-    display: inline;
-    
-    width: 10%;
-    height: 10%;
-    margin-right: 20px;
-    margin-top: 15px;
 }
 

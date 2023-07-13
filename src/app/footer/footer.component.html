@@ -1,60 +1,45 @@
 <footer class="bg-dark text-white text-center text-lg-start">
     <div class="container p-4">
-
-        <div class="row">
-
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="konatkt" style="color: red;">KONTAKT</h5>
-
-                <p>
-                    Adresa: Veljka Dugoševića 169
-                    <br>Ruma 22400
-                    <br>Telefon: 062/86-10-308
-                </p>
-            </div>
-            <div class="brziLinkovi col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="brziLinkovi" style="color:red;">BRZI LINKOVI</h5>
-
-                <ul class="list-unstyled mb-0">
-                    <li>
-                        <a  class="text-white" style="text-decoration: none;" [routerLink]="['home']"
-                            routerLinkActive="active-link">Pocetna Stranica</a>
-                    </li>
-                    <li>
-                        <a class="text-white" style="text-decoration: none;" [routerLink]="['Onama']"
-                            routerLinkActive="active-link">O nama</a>
-                    </li>
-                    <li>
-                        <a class="text-white" style="text-decoration: none;" [routerLink]="['rezervacije']"
-                            routerLinkActive="active-link">Rezervacije</a>
-                    </li>
-                    <li>
-                        <a  class="text-white" style="text-decoration: none;" [routerLink]="['uslovi']"
-                            routerLinkActive="active-link">Uslovi za iznajmljivanje</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0" style="color: red;">Prijatelji Sajta</h5>
-
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="https://mnmuskagarderoba.rs/" class="text-white"
-                            style="text-decoration: none;">www.mnmuskagarderoba.rs </a>
-                        <a href="https://mnmuskagarderoba.rs/"><img src="../../assets/images/mn_logo.webp" alt="logo"
-                                width="50%"></a>
-                    </li>
-                </ul>
-            </div>
-
+      <div class="row d-flex justify-content-center">
+        <div class="brziLinkovi col-lg-4 col-md-12 mb-4 mb-md-0">
+          <h5>BRZI LINKOVI</h5>
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a (click)="goDown2()" class="nav-link" [routerLink]="['home']" routerLinkActive="active-link">Pocetna Stranica</a>
+            </li>
+            <li>
+              <a (click)="goDown3()" class="nav-link" [routerLink]="['Onama']" routerLinkActive="active-link">O nama</a>
+            </li>
+            <li>
+              <a (click)="goDown1()" class="nav-link" [routerLink]="['rezervacije']" routerLinkActive="active-link">Rezervacije</a>
+            </li>
+            <li>
+              <a (click)="goDown4()" class="nav-link" [routerLink]="['uslovi']" routerLinkActive="active-link">Uslovi za iznajmljivanje</a>
+            </li>
+          </ul>
         </div>
-
+        <div class="prijateljiSajta col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Prijatelji Sajta</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://mnmuskagarderoba.rs/" class="text-white" style="text-decoration: none;">www.mnmuskagarderoba.rs </a>
+              <a href="https://mnmuskagarderoba.rs/"><img src="../../assets/images/logos/mn_logo.webp" alt="logoMn"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="kontakt col-lg-5 col-md-4 mb-4 mb-md-0">
+          <h5>KONTAKT</h5>
+          <p>
+            <span>Adresa: Veljka Dugoševića 169</span><br>
+            Ruma 22400<br>
+            <a class="phone-link" href="tel:+381628610308">Telefon: +381/628610308</a>
+          </p>
+        </div>
+      </div>
     </div>
-
-
-    <div class="text-center p-3" st style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2023 Copyright:
-        <a class="text-white" style="text-decoration: none;">Srdjan Bilanovic</a>
+  
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 RentAQuadVrdnik
     </div>
-
-</footer>
+  </footer>
+  

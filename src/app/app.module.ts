@@ -9,6 +9,7 @@ import { ReservationComponent } from './reservation/reservation.component';
 import { UsloviZaIznajmljivanjeComponent } from './uslovi-za-iznajmljivanje/uslovi-za-iznajmljivanje.component';
 import { OnamaComponent } from './onama/onama.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { OnamaComponent } from './onama/onama.component';
     ReservationComponent,
     UsloviZaIznajmljivanjeComponent,
     OnamaComponent,
+
   
   ],
   imports: [

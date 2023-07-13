@@ -1,17 +1,18 @@
 <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#" [routerLink]="['home']" routerLinkActive="active-link"> 
-      <img src="../../assets/images/unnamed.png" alt="logo" width="180px">
+      <img class="logo" src="../../assets/images/logos/logo200x200.webp" alt="logo" height="120px">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainNav">
         <div class="navbar-nav ms-auto">
-          <a (click)="goDown2()"class="nav-link " [routerLink]="['home']" routerLinkActive="active-link">Pocetna stranica</a>
-          <a (click)="goDown3()"class="nav-link " [routerLink]="['Onama']" routerLinkActive="active-link">O nama</a>
-          <a (click)="goDown1()"class="nav-link " [routerLink]="['rezervacije']" routerLinkActive="active-link">Rezervacije</a>
-          <a (click)="goDown4()"class="nav-link " [routerLink]="['uslovi']" routerLinkActive="active-link">Uslovi za iznajmljivanje</a>
+          <a (click)="goDown2()"class="nav-link " [routerLink]="['home']" routerLinkActive="active-link">POČETNA</a>
+          <a (click)="goDown3()"class="nav-link " [routerLink]="['Onama']" routerLinkActive="active-link">O NAMA</a>
+          <a (click)="goDown1()"class="nav-link " [routerLink]="['rezervacije']" routerLinkActive="active-link">REZERVACIJE</a>
+          <a (click)="goDown4()"class="nav-link " [routerLink]="['uslovi']" routerLinkActive="active-link">USLOVI ZA IZNAJMLJIVANJE</a>
+
         </div>
       </div>
     </div>

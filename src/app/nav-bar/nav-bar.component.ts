@@ -25,4 +25,7 @@ export class NavBarComponent {
   goDown4(){
     this.scroller.scrollToAnchor("uslovi");
       }
+  goDown5(){
+    this.scroller.scrollToAnchor("gallery");
+          }
 }
